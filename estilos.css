@@ -18,6 +18,22 @@ body {
     width:25%;
     height:110px;
   }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    height:48px;
+  }
+
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+  }
 }
 
 /*--Cabecera-logo-Título--*/
@@ -43,4 +59,28 @@ body {
   font-family:Arial;
   font-weight:bold;
   width:50%;
+}
+
+/*--Estilo de la barra de navegación--*/
+.navbar{
+  width:100%;
+  display: flex;
+    flex-direction: column;
+    background-color:black;
+}
+
+/*--Estilos de los links de la barra de navegación--*/
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+/*--Cambia el color con hover--*/
+.navbar a:hover {
+  background-color:red;
+  color: black;
 }
